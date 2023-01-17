@@ -8,6 +8,11 @@ function myFunction () {
        firstWindow.close();
     }, 3000);
     setTimeout(() => {
-        window.open('https://www.facebook.com');
-    }, 3500);
-}
+        secondWindow();
+    }, 4000);
+};
+
+
+function secondWindow () {
+    window.open('https://www.facebook.com');
+};
